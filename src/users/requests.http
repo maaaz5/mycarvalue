@@ -19,7 +19,7 @@ DELETE  http://localhost:3000/auth/12
 
 
 ###Update user
-PATCH http://localhost:3000/auth/222
+PATCH http://localhost:3000/auth/2
 Content-Type: application/json
 
 {
