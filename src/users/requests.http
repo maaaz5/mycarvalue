@@ -7,7 +7,7 @@ Content-Type: application/json
   "password": "12345"
 }
 
-###Sign in
+###Sign in as existing user
 POST http://localhost:3000/auth/signin
 Content-Type: application/json
 
@@ -16,6 +16,8 @@ Content-Type: application/json
   "password": "12345"
 }
 
+###Get  the currently signed in user
+GET  http://localhost:3000/auth/whoami
 
 ###Find a particular user with a given ID
 GET  http://localhost:3000/auth/2
